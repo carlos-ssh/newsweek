@@ -92,7 +92,6 @@ a{
 
 nav{
     width: 100%;
-    background: #FFFFFF;
     font-weight: 700;
     position: relative;
     padding-top: 20px;
@@ -111,7 +110,8 @@ nav ul{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 2px solid rgba(128, 128, 128, 0.54);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.424);
+    box-shadow: 1px solid rgba(128, 128, 128, 0.424);
 }
 
 nav li{
@@ -140,7 +140,7 @@ nav::before{
 @media (max-width: 1023px){
     nav,
     .clima,
-    .subscribe{
+    .subscribe {
         display: none;
     }
     main{
@@ -155,7 +155,7 @@ nav::before{
       height: 60px;
     }
   
-    main {
+    nav {
       margin-top: 90px;
     }
   
