@@ -1,19 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
+.buddy {
+    background-color: #f4f5f6;
+    margin: 0 5%;
+    overflow-x: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-body {
-    margin: 0px;
-    max-width: 100vw;
-    background-color: #f4f5f6;
+.main-container{
+    background: #FFFFFF;
 }
-main{
-    margin-top: 80px;
+
+.nav{
+    background: #FFFFFF;
+    margin: 0;
 }
 
 a{
     text-decoration: none;
+    color: inherit;
 }
 
 .search{
@@ -133,6 +136,24 @@ nav::before{
     border-top: #f72210;
     box-sizing: content-box;
 }
+
+.feat-img img{
+    width: 100%;
+    height: auto;
+}
+
+.debate-container{
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(223, 2, 2);
+}
+
+.debate-red-side
+
+.red-side-img{
+    height: 50%;
+}
+
 
 
 /*Media Queries*/

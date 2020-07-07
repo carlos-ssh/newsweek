@@ -9,13 +9,17 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
     <script defer src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" integrity="sha384-ujbKXb9V3HdK7jcWL6kHL1c+2Lj4MR4Gkjl7UtwpSHg/ClpViddK9TI7yU53frPN" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
   </head>
-  <body>
-    <header class="container-fluid">
+  <body class="buddy">
+    <header class="container-fluid mx-0">
       <div class="navbar align-items-center row">
         <div class="clima">
             <i class="fas fa-cloud-moon-rain"></i>
@@ -32,38 +36,36 @@
           <button class="login-button">
             <span class="bttn-txt">LOGIN</span>
           </button>
-          <button class="free-trial">
-            AD FREE TRAIL
+          <button class="free-trial">AD FREE TRAIL
           </button>
-          <button class="subscribe">
-            SUBSCRIBE >
+          <button class="subscribe">SUBSCRIBE >
           </button>
           <button class="hamburger">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
           </button>
         </div>
       </div>
-      <nav>
-        <ul>
-          <li><a href="#">U.S. </a></li>
-          <li><a href="#">World </a></li>
-          <li><a href="#">Business </a></li>
-          <li><a href="#">Tech & Sciense </a></li>
-          <li><a href="#">Culture </a></li>
-          <li><a href="#">Newsgeek </a></li>
-          <li><a href="#">Sports </a></li>
-          <li><a href="#">Health </a></li>
-          <li><a href="#">The Debate </a></li>
-          <li><a href="#">Vantage</a></li>
-          <li class="weather"><a href="#">Weather</a></li>
-          <li class="search"><input type="text" placeholder="Search"></li>
-        </ul>
-      </nav>
     </header>
+    <nav class="nav">
+      <ul>
+        <li><a href="#">U.S. </a></li>
+        <li><a href="#">World </a></li>
+        <li><a href="#">Business </a></li>
+        <li><a href="#">Tech & Sciense </a></li>
+        <li><a href="#">Culture </a></li>
+        <li><a href="#">Newsgeek </a></li>
+        <li><a href="#">Sports </a></li>
+        <li><a href="#">Health </a></li>
+        <li><a href="#">The Debate </a></li>
+        <li><a href="#">Vantage</a></li>
+        <li class="weather"><a href="#">Weather</a></li>
+        <li class="search"><input type="text" placeholder="Search"></li>
+      </ul>
+    </nav>
     <main class="main-container">
       <div class="row">
         <!--Top Story-->
-        <section class="top-story col-sm-12 col-md-7 order-md-2 col-lg-5 order-lg-2">
+        <section class="top-story col-sm-12 col-md-7 order-md-2 col-lg-5 order-lg-2 mx-1 my-1">
           <div class="sticky-story">
             <div class="story-title">
               <h2><a href="#">TOP STORY</a></h2>
@@ -87,7 +89,7 @@
           </div>
         </section>
         <!--Feature Stories-->
-        <section class="feature-stories col-sm-12 col-md-5 order-md-1 col-lg-4 order-lg-1">
+        <section class="feature-stories col-sm-12 col-md-5 order-md-1 col-lg-4 order-lg-1 mx-3 my-1">
           <div class="feature-title">
             <h2><a href="#"> FEATURED STORIES</a> </h2>
           </div>
@@ -98,7 +100,7 @@
               </div>
               <div class="feat-img">
                 <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1599832/jarrid-cornell.jpg" alt="fuck the police" width="397" height="265">
+                  <img src="https://d.newsweek.com/en/full/1599832/jarrid-cornell.jpg" alt="fuck the police">
                 </a>
               </div>
               <div class="story-title">
@@ -116,7 +118,7 @@
               </div>
               <div class="feat-img">
                 <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1600366/beijing-covid-testing.jpg?w=397&h=265&q=90&f=131fc8cab3158abf390005dd87b653f6" alt="Chinese Cheese" width="397" height="265">
+                  <img src="https://d.newsweek.com/en/full/1600366/beijing-covid-testing.jpg?w=397&h=265&q=90&f=131fc8cab3158abf390005dd87b653f6" alt="Chinese Cheese" >
                 </a>
               </div>
               <div class="story-title">
@@ -132,9 +134,9 @@
               <div class="img-category">
                 <a href="#">U.S.</a>
               </div>
-              <div class="feat-img">
+              <div class="feat-img ">
                 <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1600152/george.jpg?w=397&h=265&q=90&f=254dc96707faa5b4776aed32daf942d0" alt="George" width="397" height="265">
+                  <img src="https://d.newsweek.com/en/full/1600152/george.jpg?w=397&h=265&q=90&f=254dc96707faa5b4776aed32daf942d0" alt="George" >
                 </a>
               </div>
               <div class="story-title">
@@ -152,7 +154,7 @@
               </div>
               <div class="feat-img">
                 <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1600039/donald-trump-tulsa-rally-oklahoma-coronavirus.jpg?w=397&h=265&q=90&f=60e34da57a5d8bcedbd5c615a6bad807" alt="George" width="397" height="265">
+                  <img src="https://d.newsweek.com/en/full/1600039/donald-trump-tulsa-rally-oklahoma-coronavirus.jpg?w=397&h=265&q=90&f=60e34da57a5d8bcedbd5c615a6bad807" alt="George">
                 </a>
               </div>
               <div class="story-title">
@@ -208,10 +210,17 @@
                 <a href="#">
                   <img src="https://d.newsweek.com/en/full/1591942/rachel-bovard.png?w=150&h=150&f=059104d19ab9b5734af4aeca003f5c78" alt="Red Side">
                 </a>
-                <div class="red-debate">
-                  <a href="#"></a>
-                </div>
               </div>
+              <div class="red-debate">
+                <div>
+                  <a href="#">An All-Mail Election Would Be Dangerous for Democracy</a>
+                </div>
+                <div class="jenny">
+
+                </div>
+                
+              </div>
+
             </div>
           </div>
         </section>
