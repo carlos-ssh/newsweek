@@ -1,11 +1,17 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    background: #f4f5f7;
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow-x: hidden;
 }
 
 a {
     text-decoration: none;
     color: inherit;
 }
+
 
 .main-container {
     background: #FFFFFF;
@@ -133,6 +139,7 @@ nav input {
     color: rgba(0, 0, 0, .55);
 }
 
+.story-img img,
 .feat-img img {
     width: 100%;
     height: auto;
@@ -148,12 +155,42 @@ nav input {
     height: 50%;
 }
 
-.feature-title a,
-.story-title a{
-    font-size: 16px;
+.feature-title a{
+    font-size: 18px;
+    font-weight: 600;
     font-family: 'Roboto Condensed', sans-serif;
     color: #030303;
     opacity: 0.36;
+}
+
+.story-title a{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.story-txt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.feat-img1 span,
+.feat-img2 span,
+.feat-img3 span,
+.feat-img4 span,
+.feat-img5 span{
+    position: relative;
+    text-decoration: none;
+    bottom: 31px;
+    background: #ffffffdc;
+    padding: 7px 18px;
+    color: #f72210;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 
@@ -165,6 +202,23 @@ nav input {
     body {
         margin: 0;
         padding: 0;
+        background: #f4f5f7;
+    }
+
+    main{
+        margin-top: 33px;
+    }
+
+    section::before{
+        content: "";
+        display: block;
+        height: 18px;
+        background-color: #f4f5f7;
+        border-top: 1px solid #e2e2e2;
+        position: absolute;
+        top: 0;
+        left: -15px;
+        right: -15px;
     }
 
     .navbar {
@@ -184,6 +238,7 @@ nav input {
         bottom: 10px;
     }
 
+    .second-nav,
     .bttn-txt,
     .clima,
     .login-button,
@@ -203,9 +258,8 @@ nav input {
         margin-left: 15px;
     }
 
-    .story-img img {
-        width: 100%;
-        height: auto;
+    .img-category {
+        color: #f72210;
     }
 
 }
@@ -213,7 +267,8 @@ nav input {
 /* Medium */
 @media screen and (max-width: 991px) and (min-width: 768px) {
 
-    .login-icon {
+    .login-icon,
+    .second-nav {
         display: none;
     }
 
@@ -255,11 +310,6 @@ nav input {
 }
 /* Big Screens */
 @media screen and (min-width: 992px) {
-    
-    .buddy{
-        background-color: #f4f5f6;
-        margin: 0 4%;
-    }
 
     .clima a{
         color: #FFFFFF;
@@ -317,7 +367,7 @@ nav input {
 
     .navbar {
         clip-path: polygon(0 90%, 100% 90%, 90% 90%, 95% 130%, 130% 0%, 0 0%);
-        height: 130px;
+        height: 120px;
         position: relative;
         top: 20px;
         z-index: 999;

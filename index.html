@@ -11,13 +11,14 @@
     <script defer src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" integrity="sha384-ujbKXb9V3HdK7jcWL6kHL1c+2Lj4MR4Gkjl7UtwpSHg/ClpViddK9TI7yU53frPN" crossorigin="anonymous"></script>
     
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
   </head>
 
   <body class="buddy">
 
-    <header class="container-fluid mx-0">
+    <header class="fixed-top container-fluid mx-0">
 
       <div class="navbar align-items-center row">
         <div class="clima">
@@ -77,44 +78,49 @@
         <li><a href="#">2020 ELECTION</a></li>
       </ul>
     </div>
+
     <main class="main-container">
       <div class="row">
+
         <!--Top Story-->
-        <section class="top-story col-sm-12 col-md-7 order-md-2 col-lg-5 order-lg-2 mx-1 my-1">
+        <section class="top-story col-sm-12 col-md-7 order-md-2 col-lg-5 order-lg-2 mx-3 ">
           <div class="sticky-story">
-            <div class="story-title">
+            <div class="feature-title">
               <h2><a href="#">TOP STORY</a></h2>
             </div>
-            <article class="stories-container">
-                <a href="#">U.S.</a>
-              <div class="story-img">
+            <article class="stories-container content-to-bottom">       
+              <div class="feat-img feat-img1">
                 <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1600354/south-korean-inter-korean-liaison-office.jpg?w=591&h=364&l=55&t=38&f=a223f9b9cd7d83ba39ef10e8f7878834" alt="Gay Lord Supreme" class="img-fluid">
+                  <img class="img-fluid" src="https://d.newsweek.com/en/full/1607667/stimulus-check-trump.jpg" alt="Gay Lord Supreme">
                 </a>
+                <a href="#"> <span> U.S.</span></a>
               </div>
               <div class="story-title">
-                <h2><a href="#">Employees Cannot Be Fired for Being LGBT, Supreme Court Says</a> </h2>
+                <h2><a href="#">Trump Administration Wants Next $1 Trillion Stimulus Package by August 3</a> </h2>
                 <div class="story-txt">
-                  <p>The Supreme Court considered cases involving three individuals who say they were fired from their jobs for being either gay or transgender.</p>
+                  <p>The $1 trillion price tag could make it difficult to issue widespread stimulus checks, but it's possible there could be a more targeted approach for economic relief payments.</p>
                 </div>
               </div>
             </article>
           </div>
         </section>
+
         <!--Feature Stories-->
         <section class="feature-stories col-sm-12 col-md-5 order-md-1 col-lg-4 order-lg-1 mx-3 my-1">
-          <div class="feature-title">
+          <div class="feature-title my-4">
             <h2><a href="#"> FEATURED STORIES</a> </h2>
           </div>
+
           <article class="story">
             <div class="feat-img-container">
-              <div class="img-category">
-                <a href="#">U.S.</a>
+              <div class="img-category content-to-bottom">
+                
               </div>
-              <div class="feat-img">
+              <div class="feat-img feat-img2">
                 <a href="#">
                   <img src="https://d.newsweek.com/en/full/1599832/jarrid-cornell.jpg" alt="fuck the police" class="img-fluid">
                 </a>
+                <a href="#"> <span> U.S.</span></a>
               </div>
               <div class="story-title">
                 <h2><a href="#">Exclusive: Video Shows Austin Police Kneeled on Teen's Neck During Arrest</a></h2>
@@ -124,15 +130,17 @@
               </div>
             </div>
           </article>
+
           <article class="story">
             <div class="feat-img-container">
-              <div class="img-category">
-                <a href="#">NEWS</a>
+              <div class="img-category content-to-bottom">
+                
               </div>
-              <div class="feat-img">
+              <div class="feat-img feat-img3">
                 <a href="#">
                   <img src="https://d.newsweek.com/en/full/1600366/beijing-covid-testing.jpg?w=397&h=265&q=90&f=131fc8cab3158abf390005dd87b653f6" alt="Chinese Cheese" class="img-fluid">
                 </a>
+                <a href="#"> <span> NEWS <span></a>
               </div>
               <div class="story-title">
                 <h2><a href="#">Beijing Quarantines Travelers as It Sees China's New Coronavirus Spike</a></h2>
@@ -142,15 +150,17 @@
               </div>
             </div>
           </article>
+
           <article class="story">
             <div class="feat-img-container">
-              <div class="img-category">
-                <a href="#">U.S.</a>
+              <div class="img-category content-to-bottom">
+               
               </div>
-              <div class="feat-img ">
+              <div class="feat-img feat-img4">
                 <a href="#">
                   <img src="https://d.newsweek.com/en/full/1600152/george.jpg?w=397&h=265&q=90&f=254dc96707faa5b4776aed32daf942d0" alt="George" class="img-fluid">
                 </a>
+                <a href="#"> <span>U.S.</span></a>
               </div>
               <div class="story-title">
                 <h2><a href="#">Minnesota Freedom Fund Sparks Backlash Over Transparency</a></h2>
@@ -160,15 +170,17 @@
               </div>
             </div>
           </article>
+
           <article class="story">
             <div class="feat-img-container">
               <div class="img-category">
-                <a href="#">POLITICS</a>
+                
               </div>
-              <div class="feat-img">
+              <div class="feat-img feat-img5">
                 <a href="#">
                   <img class="img-fluid" src="https://d.newsweek.com/en/full/1600039/donald-trump-tulsa-rally-oklahoma-coronavirus.jpg?w=397&h=265&q=90&f=60e34da57a5d8bcedbd5c615a6bad807" alt="George">
                 </a>
+                <a href="#"> <span> POLITICS </span> </a>
               </div>
               <div class="story-title">
                 <h2><a href="#">Dozens Could Turn Up at Trump's Tulsa Rally Already Infected With COVID-19</a></h2>
@@ -178,64 +190,6 @@
               </div>
             </div>
           </article>
-        </section>
-        <!--SPONSORS-->
-        <section class="sponsors col-sm-12 col-md-5 order-md-2 col-lg-4 order-lg-4">
-          <div class="sticky">
-            
-            <!--Sponsor Cards-->
-
-            <div class="card" style="width: 21rem;">
-              <img class="card-img-top" src="https://d.newsweek.com/en/full/1583918/stamford-american-international-school.jpg?w=500&h=333&f=13a59ab5b96a0aad9f1517cd3844b958" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title story-title"><a href="#"> What is an IB Private Education and Why is it so Important?</a></h5>
-                <p class="card-text story-txt">The aim of the IB is to offer the best possible international education for students of all backgrounds and from every part of the world. Find out more.</p>
-              </div>
-            </div>
-
-            <div class="card" style="width: 21rem;">
-              <img class="card-img-top" src="https://d.newsweek.com/en/full/1592805/physical-rehabilitation-centers-2020.jpg?w=500&h=333&l=30&Best Physical Rehab Centers" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title story-title"><a href="#"> Best Physical Rehab Centers </a></h5>
-                <p class="card-text story-txt">Newsweek is partnering with the respected global data research firm Statista Inc. to establish a ranking of Best Physical Rehabilitation Centers in the United States 2020. If you work in this field, please participate in our survey.</p>
-              </div>
-            </div>
-
-            <div class="card" style="width: 21rem;">
-              <img class="card-img-top" src="https://d.newsweek.com/en/full/1568509/newsweek-amplify.png?w=500&h=333&f=98c0ebfc554597997a0de3bd6159812a" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title story-title"><a href="#">Newsweek AMPLIFY Launches Strategic Partnership Solutions for Brands</a></h5>
-                <p class="card-text story-txt">Newsweek AMPLIFY, the company's performance marketing business unit, has launched a new program to empower digital brands with comprehensive content marketing and advertising strategies.</p>
-              </div>
-            </div>
-
-          </div>
-          
-        </section>
-        <!--The Debate Section-->
-        <section class="debate-container col-sm-12 order-md-12 order-md-4 col-lg-3 order-lg-3">
-          <div class="sticky container-fluid">
-            <div class="debate-title">
-              <h2><a href="#">THE DEBATE</a></h2>
-            </div>
-            <div class="debate-red-side row align-items-center">
-              <div class="red-side-img ">
-                <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1591942/rachel-bovard.png?w=150&h=150&f=059104d19ab9b5734af4aeca003f5c78" alt="Red Side">
-                </a>
-              </div>
-              <div class="red-debate">
-                <div>
-                  <a href="#">An All-Mail Election Would Be Dangerous for Democracy</a>
-                </div>
-                <div class="jenny">
-
-                </div>
-                
-              </div>
-
-            </div>
-          </div>
         </section>
 
       </div>
