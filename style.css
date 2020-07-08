@@ -321,6 +321,45 @@ nav input {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.more-more h2{
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.397);
+    box-shadow: 1px solid rgba(128, 128, 128, 0.185);
+}
+
+.tellers{
+    display: inline-flex;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.397);
+    box-shadow: 1px solid rgba(128, 128, 128, 0.185);
+}
+
+.tellers1{
+    display: inline-flex;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.tellers a,
+.tellers1 a{
+    font-size: 17px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #000000;
+}
+
+.tellers p,
+.tellers1 p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+.tellers ul,
+.tellers1 ul{
+    list-style: none;
+}
+
 /* ========================
         Meedia Queries
    ======================== */
