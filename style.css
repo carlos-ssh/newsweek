@@ -210,7 +210,8 @@ nav input {
 
 .left-side,
 .name-dbt,
-.name-dbt1 {
+.name-dbt1,
+.galan {
     display: flex;
 }
 
@@ -218,16 +219,35 @@ nav input {
 .right-side img {
     width: 63px;
     height: auto;
+    
 }
 
 .right-side img {
     float: right;
+    margin-bottom: 20px;
 }
 
 .left-side a,
 .right-side a {
     color: #000000;
     font-weight: 700;
+}
+
+.galan a,
+.galan-none a{
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+}
+
+.galan p,
+.galan-none p{
+    color: #000000;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    margin: 0;
 }
 
 .left-side span,
@@ -265,6 +285,28 @@ nav input {
     border-bottom: 4px solid rgba(128, 128, 128, 0.397);
     box-shadow: 1px solid rgba(128, 128, 128, 0.185);
     margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.galan{
+    height: 90px;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.397);
+    box-shadow: 1px solid rgba(128, 128, 128, 0.185);
+    padding-top: 10px;
+}
+
+.galan li,
+.galan-none li{
+    list-style: none;
+}
+
+.galan-none{
+    display: flex;
+    height: 90px;
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 30px;
 }
 
 /* ========================
