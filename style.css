@@ -181,7 +181,8 @@ nav input {
 .feat-img2 span,
 .feat-img3 span,
 .feat-img4 span,
-.feat-img5 span{
+.feat-img5 span,
+.feat-img6 span {
     position: relative;
     text-decoration: none;
     bottom: 31px;
@@ -193,6 +194,78 @@ nav input {
     font-size: 18px;
 }
 
+.debate {
+    border-bottom: 4px solid rgba(128, 128, 128, 0.397);
+    box-shadow: 1px solid rgba(128, 128, 128, 0.185);
+}
+
+.left-txt {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.right-txt {
+    padding-top: 10px;
+}
+
+.left-side,
+.name-dbt,
+.name-dbt1 {
+    display: flex;
+}
+
+.left-side img,
+.right-side img {
+    width: 63px;
+    height: auto;
+}
+
+.right-side img {
+    float: right;
+}
+
+.left-side a,
+.right-side a {
+    color: #000000;
+    font-weight: 700;
+}
+
+.left-side span,
+.right-side span {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.left-side p,
+.right-side p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.left-side {
+    padding-bottom: 20px;
+    border-bottom: 4px solid rgba(128, 128, 128, 0.171);
+    box-shadow: 1px solid rgba(93, 93, 93, 0.363);
+}
+
+.versus {
+    border-radius: 50%;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+    padding: 7px 1px 3px 7px;
+    color: #ffffff;
+    font-size: 12px;
+    position: relative;
+    bottom: 17px;
+    left: 210px;
+}
+
+.right-side {
+    border-bottom: 4px solid rgba(128, 128, 128, 0.397);
+    box-shadow: 1px solid rgba(128, 128, 128, 0.185);
+    margin-bottom: 20px;
+}
 
 /* ========================
         Meedia Queries
@@ -205,14 +278,14 @@ nav input {
         background: #f4f5f7;
     }
 
-    main{
+    main {
         margin-top: 33px;
     }
 
-    section::before{
+    section::before {
         content: "";
         display: block;
-        height: 18px;
+        height: 24px;
         background-color: #f4f5f7;
         border-top: 1px solid #e2e2e2;
         position: absolute;
