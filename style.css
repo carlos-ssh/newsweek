@@ -309,6 +309,18 @@ nav input {
     margin-bottom: 30px;
 }
 
+.crd-boddy a{
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.crd-boddy p{
+    font-size: 12px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* ========================
         Meedia Queries
    ======================== */
