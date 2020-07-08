@@ -5,15 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./resources/normalize.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-    <!-- Fonts -->
+    <!-- Fonts & Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-
     <script defer src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" integrity="sha384-ujbKXb9V3HdK7jcWL6kHL1c+2Lj4MR4Gkjl7UtwpSHg/ClpViddK9TI7yU53frPN" crossorigin="anonymous"></script>
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
@@ -23,9 +19,9 @@
       <div class="navbar align-items-center row">
         <div class="clima">
             <i class="fas fa-cloud-moon-rain"></i>
-            <a href="#"><span>18°C Queretaro, Mx.</span></a>
+            <a href="#"><span>18°  Querétaro, MX. <i class="fas fa-chevron-right fa-1x"></i> </span></a>
             <br>  
-            <span class="fecha">Fri, Jun 18, 2020</span> 
+            <span class="fecha">Tue, Jul 07, 2020</span> 
         </div> 
         <div class="news-logo">
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g>
@@ -33,21 +29,21 @@
             </g></svg>
         </div>
         <div class="right-buttons">
-          <button class="login-button">
-            <span class="bttn-txt">LOGIN</span>
-          </button>
+          <a class="login-icon"><i class="fas fa-user fa-lg"></i></a>
+          <a class="login-button text-white">LOGIN
+          </a>
           <button class="free-trial">AD FREE TRAIL
           </button>
-          <button class="subscribe">SUBSCRIBE >
+          <button class="subscribe">SUBSCRIBE <i class="fas fa-chevron-right"></i>
           </button>
           <button class="hamburger">
-            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-2x" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
           </button>
         </div>
       </div>
     </header>
     <nav class="nav">
-      <ul>
+      <ul class="poly">
         <li><a href="#">U.S. </a></li>
         <li><a href="#">World </a></li>
         <li><a href="#">Business </a></li>
@@ -71,12 +67,10 @@
               <h2><a href="#">TOP STORY</a></h2>
             </div>
             <article class="stories-container">
-              <div class="story-img-cont">
                 <a href="#">U.S.</a>
-              </div>
               <div class="story-img">
                 <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1600354/south-korean-inter-korean-liaison-office.jpg?w=591&h=364&l=55&t=38&f=a223f9b9cd7d83ba39ef10e8f7878834" alt="Gay Lord Supreme">
+                  <img src="https://d.newsweek.com/en/full/1600354/south-korean-inter-korean-liaison-office.jpg?w=591&h=364&l=55&t=38&f=a223f9b9cd7d83ba39ef10e8f7878834" alt="Gay Lord Supreme" class="img-fluid">
                 </a>
               </div>
               <div class="story-title">
@@ -100,7 +94,7 @@
               </div>
               <div class="feat-img">
                 <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1599832/jarrid-cornell.jpg" alt="fuck the police">
+                  <img src="https://d.newsweek.com/en/full/1599832/jarrid-cornell.jpg" alt="fuck the police" class="img-fluid">
                 </a>
               </div>
               <div class="story-title">
@@ -118,7 +112,7 @@
               </div>
               <div class="feat-img">
                 <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1600366/beijing-covid-testing.jpg?w=397&h=265&q=90&f=131fc8cab3158abf390005dd87b653f6" alt="Chinese Cheese" >
+                  <img src="https://d.newsweek.com/en/full/1600366/beijing-covid-testing.jpg?w=397&h=265&q=90&f=131fc8cab3158abf390005dd87b653f6" alt="Chinese Cheese" class="img-fluid">
                 </a>
               </div>
               <div class="story-title">
@@ -136,7 +130,7 @@
               </div>
               <div class="feat-img ">
                 <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1600152/george.jpg?w=397&h=265&q=90&f=254dc96707faa5b4776aed32daf942d0" alt="George" >
+                  <img src="https://d.newsweek.com/en/full/1600152/george.jpg?w=397&h=265&q=90&f=254dc96707faa5b4776aed32daf942d0" alt="George" class="img-fluid">
                 </a>
               </div>
               <div class="story-title">
@@ -154,7 +148,7 @@
               </div>
               <div class="feat-img">
                 <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1600039/donald-trump-tulsa-rally-oklahoma-coronavirus.jpg?w=397&h=265&q=90&f=60e34da57a5d8bcedbd5c615a6bad807" alt="George">
+                  <img class="img-fluid" src="https://d.newsweek.com/en/full/1600039/donald-trump-tulsa-rally-oklahoma-coronavirus.jpg?w=397&h=265&q=90&f=60e34da57a5d8bcedbd5c615a6bad807" alt="George">
                 </a>
               </div>
               <div class="story-title">
