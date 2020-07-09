@@ -468,10 +468,6 @@ nav input {
     .nav ul {
         display: none;
     }
-
-    .feat-img2 img{
-        padding-top: -30px;
-    }
 }
 /* Big Screens */
 @media screen and (min-width: 992px) {
