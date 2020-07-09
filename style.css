@@ -161,6 +161,7 @@ nav input {
     font-family: 'Roboto Condensed', sans-serif;
     color: #030303;
     opacity: 0.36;
+    margin: 0;
 }
 
 .story-title a{
@@ -177,12 +178,7 @@ nav input {
     font-weight: 400;
 }
 
-.feat-img1 span,
-.feat-img2 span,
-.feat-img3 span,
-.feat-img4 span,
-.feat-img5 span,
-.feat-img6 span {
+.feat-img span{
     position: relative;
     text-decoration: none;
     bottom: 31px;
