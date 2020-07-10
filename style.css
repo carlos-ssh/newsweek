@@ -509,19 +509,7 @@ nav input {
     padding-bottom: 20px;
 }
 
-.le-rouge {
-    position: relative;
-    top: 15px;
-    left: 40px;
-    z-index: 0;
-}
-
-.le-black{
-    position: absolute;
-    left: 105px;
-}
 .newsletter-tittle{
-    position: absolute;
     z-index: 1;
     color: #000000;
     bottom: 180px;
@@ -642,6 +630,25 @@ nav input {
 
     .img-category {
         color: #f72210;
+    }
+
+    .to-image img{
+        position: relative;
+        padding-bottom: 13px;
+        padding-right: 90px;
+        vertical-align: middle;
+        height: auto;
+    }
+    .mag-thumb{
+        width: 170px;
+        height: 228px;
+    }
+
+    .current {
+        position: absolute;
+        top: 13px;
+        left: 80px;
+        border: 3px solid yellow;
     }
 
 }
