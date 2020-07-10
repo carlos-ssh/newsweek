@@ -466,7 +466,6 @@ nav input {
     font-weight: 500;
     font-size: 16px;
     width: 90px;
-    border: 1px solid red;
 }
 
 .anchor-down a{
@@ -475,6 +474,12 @@ nav input {
     font-weight: 600;
 }
 
+.redus-section {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    color: #f72210;
+}
 
 /* ========================
         Meedia Queries
