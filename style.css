@@ -406,6 +406,19 @@ nav input {
     font-weight: 600;
 }
 
+.homes-card h5,
+.learn-code h5{
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.homes-card p,
+.learn-code p{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* ========================
         Meedia Queries
    ======================== */
