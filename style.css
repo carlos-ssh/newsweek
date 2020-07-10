@@ -371,8 +371,9 @@ nav input {
         margin-top: 33px;
     }
 
-    .blank{
+    aside{
         content: "";
+        margin-bottom: 30px;
     }
 
     aside::before {
