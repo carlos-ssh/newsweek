@@ -137,6 +137,7 @@ nav input {
     color: rgba(0, 0, 0, .55);
 }
 
+.my-turn1 img,
 .story-img img,
 .feat-img img {
     width: 100%;
@@ -237,8 +238,8 @@ nav input {
 
 .galan p,
 .galan-none p{
-    color: #000000;
-    font-weight: 300;
+    color: #535353;
+    font-weight: 600;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
     margin: 0;
@@ -287,7 +288,6 @@ nav input {
     left: 0;
     right: 0; 
 }
-
 
 .deco::before {
     content: " ";
@@ -376,6 +376,34 @@ nav input {
 .tellers ul,
 .tellers1 ul{
     list-style: none;
+}
+
+.my-turn1 h2{
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    color: #9c9c9c;
+}
+
+.fiv-articles img{
+    background-color: #F61602;
+    height: 29px;
+    width: 28px;
+    margin-right: 12px;
+
+}
+
+.fiv-articles h2{
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+
+.rojo-btn button{
+    background-color: #F61602;
+    color: #FFFFFF;
+    font-weight: 600;
 }
 
 /* ========================
