@@ -1,8 +1,5 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    background: #f4f5f7;
-    max-width: 100%;
-    overflow-x: hidden;
 }
 
 a {
@@ -10,131 +7,72 @@ a {
     color: inherit;
 }
 
-
-.main-container {
-    background: #FFFFFF;
+.navbar-brand svg{
+    fill: #FFFFFF !important;
+    width: 396px;
+    height: auto;
 }
 
-.nav {
-    background: #FFFFFF;
-    margin: 0;
-}
-
-.search {
-    border: none;
-    padding: 0;
-    width: 82px;
-}
-
-.weather {
-    border: none;
-    padding: 0;
-}
-
-.search input {
-    background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) 55px 0 no-repeat;
-    width: 100%;
-    border: none;
-}
-
-.right-buttons {
-    align-items: center;
-    margin-right: 10px;
-    display: inline-flex;
-}
-
-.login-button {
-    font-size: 16px;
-    color: white;
-}
-
-.navbar {
+.navbar{
     background: #F72210;
-    justify-content: space-between;
-    padding: 0;
 }
 
-.clima {
-    color: #FFFFFF;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 30px;
-    padding-left: 30px;
+.qro-cloud{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
 }
 
-.fecha{
+.daate{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+
+.login{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
     font-weight: 500;
 }
 
-.news-logo{
-    padding: 15px;
-}
-
-.news-logo svg{
-    fill: #FFFFFF;
-    width: 396px;
-    height: 60px;
-}
-
-.hamburger,
-.fa-user {
-    color: #FFFFFF;
-    background-color: #f72210;
-    border: none;
-    width: 30px;
-    height: 30px;
-    background-size: cover;
-    margin-right: 10px;
-    opacity: .75;
-}
-
-.subscribe,
-.free-trial {
-    color: #000000;
-    background-color: #ffe605;
-    font-weight: 700;
-    font-size: 13px;
-    cursor: pointer;
-    display: inline-block;
-    padding: 8px 22px 8px 22px;
-    margin-right: 10px;
-    border-radius: 18px;
-    border: none;
+.subs {
     font-family: 'Roboto Condensed', sans-serif;
-
+    font-size: 18px !important;
+    font-weight: 500;
+    background: #FFE400 !important; 
 }
 
-nav {
+
+.polygon {
+    clip-path: polygon(100% 92%, 100% 100%, 94.5% 100%, 93% 92%);
+    height: 230px;
     width: 100%;
-    font-weight: 700;
-    position: relative;
-    padding-top: 15px;
-    padding-right: 80px;
-    top: 0;
-    left: 0;
-    right: 0;
-    border-bottom: 2px solid rgba(128, 128, 128, 0.103);
-    box-shadow: 1px solid rgba(128, 128, 128, 0.185);
+    transform: translateY(-50%);
+    background: #F72210;
+    z-index: 0;
+}
+.polygon{
+    position: absolute;
+    right: 15px;
+    top: 0px;
 }
 
-nav ul{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    justify-content: space-evenly;
-    text-align: center;
-    padding-top: 10px;
-    padding-left: 0;
+.w-ul,
+.ul-l {
+    font-size: 19px !important;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
 }
 
-nav li {
-    border-right: 1px solid rgba(58, 57, 57, 0.24);
-    display: inline-block;
-    white-space: nowrap;
-    padding: 0 3px 0 3px;
+
+.ul-li{
+    text-align: left !important;
+    border-right: 1px solid #bebdbd50;
+    padding-right: 20px !important;
 }
 
-nav input {
-    color: rgba(0, 0, 0, .55);
+.ul-l2{
+    font-size: 19px !important;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;  
 }
 
 .my-turn1 img,
@@ -566,15 +504,6 @@ nav input {
    ======================== */
 /* Small */
 @media screen and (max-width: 767px) { 
-    body {
-        margin: 0;
-        padding: 0;
-        background: #f4f5f7;
-    }
-
-    main {
-        margin-top: 33px;
-    }
 
     aside{
         content: "";
@@ -593,8 +522,6 @@ nav input {
     }
 
     .navbar {
-        margin-left: 0;
-        margin-right: 0;
         height: 50px;
     }
 
@@ -656,150 +583,19 @@ nav input {
 /* Medium */
 @media screen and (max-width: 991px) and (min-width: 768px) {
 
-    .login-icon,
-    .second-nav {
+    .login-icon {
         display: none;
     }
 
-    .navbar {
-        margin-left: 0;
-        margin-right: 0;
-        height: 50px;
-    }
-    
-    .news-logo svg {
-        width: 132px;
-        height: 20px;
-    }
-
-    .login-button {
-        font-size: 18px;
-        font-family: 'Roboto Condensed', sans-serif;
-        color: #fff;
-        margin-right: 10px;
-    }
-
-    .news-logo,
-    .right-buttons{
-        position: relative;
-        bottom: 10px;
-    }
-
-    .fa-bars{
-        font-size: 28px;
-    }
-
-    .bttn-txt,
-    .clima,
-    .free-trial,
-    .nav ul {
-        display: none;
-    }
 }
+
 /* Big Screens */
 @media screen and (min-width: 992px) {
-
-    .clima a{
-        color: #FFFFFF;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-weight: 600;
-    }
-
-    .fecha{
-        font-size: 16px;
-        color: #FFFFFF;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-weight: 200;
-    }
-
-    .subscribe {
-        font-size: 18px;
-        font-weight: bold;
-        padding: 3px 20px;
-    }
-
     .fa-bars,
     .login-icon,
     .hamburger,
     .free-trial {
         display: none;
     }
-
-
-    .login-button {
-        font-size: 18px;
-        font-family: 'Roboto Condensed', sans-serif;
-        color: #fff;
-        margin-right: 20px;
-    }
-
-    .nav a {
-        color: #000000;
-        text-decoration: none;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-weight: 700;
-        font-size: 19px;
-        text-align: center;
-        line-height: 20px;
-    }
-    .nav input{
-        position: relative;
-        bottom: 2px;
-    }
-    .nav {
-        width: 100%;
-        position: relative;
-        margin-top: 100px;
-        z-index: 0;
-    }
-
-    .navbar {
-        clip-path: polygon(0 90%, 100% 90%, 90% 90%, 95% 130%, 130% 0%, 0 0%);
-        height: 120px;
-        position: relative;
-        z-index: 999;
-    }
-
-    .nav a:hover{
-        color: #f72210;
-        text-decoration: none;
-    }
-
-   /* .navbar{
-        position: absolute;
-        z-index: 2;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-*/
-
-    .second-nav a,
-    .second-nav li{
-        list-style: none;
-        color: #22222298;
-        text-decoration: none;
-        margin-right: 13px;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-weight: 700;
-        font-size: 16px;
-        text-align: center;
-        line-height: 20px;
-    }
-
-    .second-nav{
-        display: inline-flex;
-        background: #FFFFFF;
-        width: 100%;
-        padding: 10px 30px;
-        margin-bottom: 0;
-        border-bottom: 2px solid rgba(128, 128, 128, 0.103);
-        box-shadow: 1px solid rgba(128, 128, 128, 0.185);
-    }
-
-    .second-nav strong{
-        color: #000000;
-        font-weight: 800;
-        margin-right: 13px;
-    }
-
+    
 }
