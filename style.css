@@ -35,7 +35,7 @@ a {
 
 .subs {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 18px !important;
+    font-size: 16px !important;
     font-weight: 500;
     background: #FFE400 !important; 
 }
@@ -505,6 +505,11 @@ a {
 /* Small */
 @media screen and (max-width: 767px) { 
 
+    header{
+        width: 100%;
+        background: #F72210;
+    }
+
     aside{
         content: "";
         margin-bottom: 30px;
@@ -519,36 +524,38 @@ a {
         position: absolute;
         left: -15px;
         right: -15px;
+        
     }
 
     .navbar {
         height: 50px;
     }
 
-    .news-logo svg {
+    .logo svg {
         width: 132px;
         height: 20px;
+        position: absolute;
+        bottom: 15px;
+        left: 0px;
+        box-sizing: border-box;
     }
 
-    .news-logo,
-    .right-buttons{
-        position: relative;
-        bottom: 10px;
+    .subs {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 16px !important;
+        font-weight: 700;
+        background: #FFE400 !important;
+        border-radius: 24px;
+        width: 110px;
+        height: 20px;
+        display: flex;
+        padding-bottom: 10px;
+        padding-top: 0 !important;
+        text-align: center;
+        float: right;
     }
-
-    .second-nav,
-    .bttn-txt,
-    .clima,
-    .login-button,
-    .nav ul {
-        display: none;
-    }
-
-    .subscribe {
-        display: block;
-        margin: 0 0 0 10px;
-        padding: 3px 12px 3px 12px;
-    }
+    
+ 
 
     .fa-bars{
         font-size: 22px;
@@ -591,11 +598,6 @@ a {
 
 /* Big Screens */
 @media screen and (min-width: 992px) {
-    .fa-bars,
-    .login-icon,
-    .hamburger,
-    .free-trial {
-        display: none;
-    }
+   
     
 }
