@@ -542,17 +542,17 @@ a {
 
     .subs {
         font-family: 'Roboto Condensed', sans-serif;
-        font-size: 16px !important;
-        font-weight: 700;
+        font-size: 14px !important;
+        font-weight: 600;
         background: #FFE400 !important;
         border-radius: 24px;
-        width: 110px;
-        height: 20px;
-        display: flex;
-        padding-bottom: 10px;
-        padding-top: 0 !important;
+        width: 100px;
+        height: 25px;
+        padding-top: 2px !important;
         text-align: center;
-        float: right;
+        position: absolute;
+        top: 12px;
+        right: 55px;
     }
     
  
@@ -560,6 +560,11 @@ a {
     .fa-bars{
         font-size: 22px;
         margin-left: 15px;
+        color: #FFFFFF;
+        position: absolute;
+        top: 12px;
+        right: 10px;
+        opacity: .64;
     }
 
     .img-category {
