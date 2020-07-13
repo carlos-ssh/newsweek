@@ -567,6 +567,16 @@ a {
         opacity: .64;
     }
 
+    .fa-user{
+        font-size: 22px;
+        margin-left: 15px;
+        color: #FFFFFF;
+        position: absolute;
+        top: 12px;
+        right: 180px;
+        opacity: .64;
+    }
+
     .img-category {
         color: #f72210;
     }
