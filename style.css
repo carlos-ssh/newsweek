@@ -588,6 +588,7 @@ a {
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
 
+
     .login {
         position: relative;
         top: 0;
@@ -611,6 +612,21 @@ a {
         margin-left: 3px;
     }
 
+    .top-story {
+        display: block;
+        margin-top: 60px;
+        z-index: 1;
+    }
+
+    .txt-newsletter {
+        position: absolute;
+        top: -230px;
+        left: 248px;
+    }
+
+    .subscribe-cont {
+        height: 250px;
+    }
 
     .ul-l2 {
         font-size: 16px !important;
@@ -634,6 +650,19 @@ a {
     }
     .txt-us {
         line-height: 16px !important;
+    }
+    .fiv-articles{
+        position: absolute;
+        left: 290px;
+        bottom: 230px;
+    }
+    .newsletter-img {
+        height: 245px;
+        border: 1px solid #c3c3c365;
+    }
+    .newsletter-img img{
+        height: 244px !important;
+        width: 680px;
     }
 }
 

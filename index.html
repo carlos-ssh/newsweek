@@ -5,14 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="estilo.css">
     <!-- Fonts & Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" integrity="sha384-ujbKXb9V3HdK7jcWL6kHL1c+2Lj4MR4Gkjl7UtwpSHg/ClpViddK9TI7yU53frPN" crossorigin="anonymous"></script>
     
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS 
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    -->
     <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
   </head>
   <body class="buddy">
@@ -1262,24 +1263,25 @@
         </aside>
 
         <!--SUBSCRIBE-->
-        <section class="container-fluid my-3 col-md-3">
+        <section class="subscribe-cont container-fluid my-sm-3 col-md-12">
           <div class="img-category content-to-bottom">
             <a href="#"> <span class="redus-section">SUBSCRIBE</span></a>
           </div>
 
-          <article>
-            <div class="card text-center">
-              <div class="image card-body bg-light ajalas vertical-center">
+          <article class="container-fluid border-0">
+            <div class="card text-sm-center border-0 text-md-left col-md-12">
+              <div class="image card-body ajalas vertical-center col-md-4">
                 
                 <img class="le-black prev mag-thumb" src="https://d.newsweek.com/en/full/1603489/cover-july-03-2020.jpg?w=170&q=95&f=8446a36f196795281af9db53376bb9c9" alt="black">
                 <img class="le-rouge current mag-thumb" src="https://d.newsweek.com/en/full/1605463/us-cover-july-10-17.jpg?w=170&q=95&f=d2052453d20d983d860a15886165fa2a" alt="red">
-
-                <h5 class="card-title newsletter-tittle mx-auto">In-depth Stories You Don't See Elsewhere About <br> Topics You Want to Read!</h5>
-                <p class="card-text newsletter-p">All Access + Weekly Delivery. <br>
-                  Choose A Membership That's Perfect for You!</p>
-                <div class="form-group mx-5 rojo-btn1">
-                  <button type="button" class="btn btn-sm my-2">SUBSCRIBE <i class="fas fa-chevron-right"></i> </button>
-                </div>
+              </div>
+                <div class="col-md-8 txt-newsletter w-75">
+                  <h5 class="card-title newsletter-tittle mx-auto">In-depth Stories You Don't See Elsewhere About <br> Topics You Want to Read!</h5>
+                  <p class="card-text newsletter-p">All Access + Weekly Delivery. <br>
+                    Choose A Membership That's Perfect for You!</p>
+                  <div class="form-group mx-5 rojo-btn1">
+                    <button type="button" class="btn btn-sm my-2">SUBSCRIBE <i class="fas fa-chevron-right"></i> </button>
+                  </div>
               </div>
             </div>
           </article>
@@ -1293,21 +1295,24 @@
         </aside>
 
         <!--NEWSLETTER-->
-        <section class="container-fluid my-3 col-md-3">
-          <div class="img-category container-fluid my-2">
+        <section class="container-fluid hidden-md-down my-sm-3 col-md-12 mt-md-5 this-section">
+          <div class="img-category container my-2">
             <a href="#"> <span class="redus-section">NEWSLETTER</span></a>
           </div>
 
           <article class="container-fluid">
-            <div class="card bg-light ">
-              <div class="card-body text-center fiv-articles align-items-center">  
-                <h2 class="card-text text-center">The Starting 5</h2>
-                <p class="newsletter-p">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+            <div class="container bg-sm-light col-md-12 pl-md-0 newsletter-img">
+              <div class=" align-items-md-start d-md-inline-flex pl-md-0">
+                <img class=" pl-md-0 float-md-left col-md-5" src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5" alt="" srcset="">  
               </div>
-              <div class="form-group mx-5 rojo-btn">
-                <input type="email" class="form-control" placeholder="Email address" id="email">
-                <button type="button" class="btn btn-block my-2">FREE SIGN UP <i class="fas fa-chevron-right"></i> </button>
-              </div>
+                <div class="col-md-7 card-body text-center fiv-articles align-items-sm-center ">
+                  <h2 class="card-text text-sm-center text-md-left">The Starting 5</h2>
+                  <p class="newsletter-p text-md-left">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p> 
+                  <div class="form-group mx-sm-5 mx-md-0 rojo-btn">
+                    <input type="email" class="form-control" placeholder="Email address" id="email">
+                    <button type="button" class="btn btn-block my-2">FREE SIGN UP <i class="fas fa-chevron-right"></i> </button>
+                  </div>
+                </div>  
           </article>
 
         </section>
