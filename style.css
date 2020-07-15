@@ -94,6 +94,7 @@ a {
     color: #030303;
     opacity: 0.36;
     margin: 0;
+    width: 75%;
 }
 
 .story-title a{
@@ -572,13 +573,17 @@ a {
         border: 3px solid yellow;
     }
 
-    .feature-stories {
-        margin-top: 60px !important;
-    }
-    .feature-title {
+    .feat-tit {
         margin-left: 15px;
+        margin-top: 60px;
     }
  }
+/* Small ≥576px */
+@media (min-width: 576px) {
+    .historia {
+        margin-top: 60px;
+    }
+}
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
