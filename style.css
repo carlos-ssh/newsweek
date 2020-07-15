@@ -625,18 +625,15 @@ a {
         height: 165px;
     }
 
-    .my-turn0 {
-        position: relative;
-        bottom: 1460px;
-
-    }
-
     .bb-article article{
         border-bottom: none !important;
     }
 
     .us-txt a{
         line-height: 1px !important;
+    }
+    .txt-us {
+        line-height: 16px !important;
     }
 }
 
@@ -690,7 +687,10 @@ a {
         font-size: 17px;
         padding: 0;
     }
-
+    .feat-tit {
+        margin-left: 15px;
+        margin-top: 10px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
