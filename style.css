@@ -1,5 +1,10 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    color: #000000;
+}
+
+h2 {
+    line-height: 20px !important;
 }
 
 a {
@@ -9,7 +14,7 @@ a {
 
 .navbar-brand svg{
     fill: #FFFFFF !important;
-    width: 396px;
+    width: 100%;
     height: auto;
 }
 
@@ -33,27 +38,17 @@ a {
     font-weight: 500;
 }
 
-.subs {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 16px !important;
-    font-weight: 500;
-    background: #FFE400 !important; 
-}
-
-
 .polygon {
     clip-path: polygon(100% 92%, 100% 100%, 94.5% 100%, 93% 92%);
     height: 230px;
     width: 100%;
     transform: translateY(-50%);
     background: #F72210;
-    z-index: 0;
-}
-.polygon{
+    z-index: 1;
     position: absolute;
-    right: 15px;
     top: 0px;
 }
+
 
 .w-ul,
 .ul-l {
@@ -66,13 +61,14 @@ a {
 .ul-li{
     text-align: left !important;
     border-right: 1px solid #bebdbd50;
-    padding-right: 20px !important;
+    width: 100%;
+    padding-right: 10px;
 }
 
 .ul-l2{
     font-size: 19px !important;
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 600;  
+    font-weight: 600;
 }
 
 .my-turn1 img,
@@ -499,15 +495,21 @@ a {
     display: inline; 
 }
 
+
+
 /* ========================
         Meedia Queries
    ======================== */
-/* Small */
-@media screen and (max-width: 767px) { 
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 276px) { 
 
     header{
         width: 100%;
         background: #F72210;
+        position: fixed;
+        z-index: 1;
     }
 
     aside{
@@ -521,23 +523,18 @@ a {
         height: 28px;
         background-color: #f4f5f7;
         border-top: 1px solid #e2e2e2;
-        position: absolute;
-        left: -15px;
-        right: -15px;
-        
+        width: 100%;
     }
 
     .navbar {
         height: 50px;
     }
 
-    .logo svg {
-        width: 132px;
+    .navbar-brand svg {
+        width: 100%;
         height: 20px;
-        position: absolute;
-        bottom: 15px;
-        left: 0px;
-        box-sizing: border-box;
+        right: 100px;
+        position: relative;
     }
 
     .subs {
@@ -600,19 +597,125 @@ a {
         border: 3px solid yellow;
     }
 
-}
+ }
 
-/* Medium */
-@media screen and (max-width: 991px) and (min-width: 768px) {
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
 
-    .login-icon {
-        display: none;
+    .login {
+        position: relative;
+        top: 0;
+        right: 150px;
     }
 
+    .subs {
+        font-size: 18px !important;
+        width: 130px;
+        height: 30px;
+        margin: 0 0 15px 20px;
+    }
+
+    .fa-bars {
+        font-size: 31px;
+    }
+
+    .fa-chevron-right {
+        font-size: 12px;
+        margin-bottom: 3px;
+        margin-left: 3px;
+    }
+
+
+    .ul-l2 {
+        font-size: 16px !important;
+    }
+
+    .top-story {
+        height: 100% !important;
+    }
+
+    .inthe-mag img{
+        width: 165px;
+        height: 165px;
+    }
+
+    .my-turn0 {
+        position: relative;
+        bottom: 1460px;
+
+    }
+
+    .bb-article article{
+        border-bottom: none !important;
+    }
+
+    .us-txt a{
+        line-height: 1px !important;
+    }
 }
 
-/* Big Screens */
-@media screen and (min-width: 992px) {
-   
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
     
-}
+    header {
+        position: unset;
+    }
+
+    nav input {
+        width: 100%;
+    }
+    
+    .butt-head{
+        height: 100px;
+    }
+
+    .qro-cloud,
+    .daate {
+        margin-top: 15px;        
+    }
+
+    .navbar-brand svg {
+        width: 100%;
+        height: 60px;
+        position: absolute;
+        left: 0;
+    }
+
+    .this-right {
+        position: absolute;
+        right: 0;
+        top: 40px;
+        width: 130px;
+    }
+
+    .this-right1{
+        right: 120px;
+        top: 30px;
+    }
+
+    .wht-nav {
+        font-size: 10px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .ul-li,
+    .ul-l {
+        font-size: 17px;
+        padding: 0;
+    }
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+    .ul-li{
+        text-align: left !important;
+        border-right: 1px solid #bebdbd50;
+        padding-right: 20px !important;
+        width: 100%;
+    }
+
+
+ }
