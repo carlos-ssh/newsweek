@@ -644,17 +644,17 @@ a {
     .bb-article article{
         border-bottom: none !important;
     }
-
     .us-txt a{
         line-height: 1px !important;
     }
     .txt-us {
         line-height: 16px !important;
     }
-    .fiv-articles{
-        position: absolute;
-        left: 290px;
-        bottom: 230px;
+    .subscribe-cont {
+        height: 320px;
+    }
+    .this-section{
+        height: 320px;
     }
     .newsletter-img {
         height: 245px;
