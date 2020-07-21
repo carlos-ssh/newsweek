@@ -588,7 +588,11 @@ a {
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
 
-
+    navbar{
+        position: fixed;
+        z-index: 999;
+    }
+    
     .login {
         position: relative;
         top: 0;
@@ -613,9 +617,7 @@ a {
     }
 
     .top-story {
-        display: block;
         margin-top: 60px;
-        z-index: 1;
     }
 
     .txt-newsletter {
@@ -663,6 +665,11 @@ a {
     .newsletter-img img{
         height: 244px !important;
         width: 680px;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 50px;
     }
 }
 
